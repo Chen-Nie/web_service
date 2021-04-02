@@ -1,0 +1,766 @@
+2021/04/01 19:14:02 [error] 2068#2068: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):2: module 'web' not found:
+	no field package.preload['web']
+	no file '/home/chen/Desktop/webservice/lua//lua/web.lua'
+	no file '/usr/local/openresty/site/lualib/web.ljbc'
+	no file '/usr/local/openresty/site/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/lualib/web.ljbc'
+	no file '/usr/local/openresty/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/web.lua'
+	no file '/usr/local/openresty/site/lualib/web/init.lua'
+	no file '/usr/local/openresty/lualib/web.lua'
+	no file '/usr/local/openresty/lualib/web/init.lua'
+	no file './web.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/web.lua'
+	no file '/usr/local/share/lua/5.1/web.lua'
+	no file '/usr/local/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/site/lualib/web.so'
+	no file '/usr/local/openresty/lualib/web.so'
+	no file './web.so'
+	no file '/usr/local/lib/lua/5.1/web.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/web.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:14:17 [error] 2068#2068: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):2: module 'web' not found:
+	no field package.preload['web']
+	no file '/home/chen/Desktop/webservice/lua//lua/web.lua'
+	no file '/usr/local/openresty/site/lualib/web.ljbc'
+	no file '/usr/local/openresty/site/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/lualib/web.ljbc'
+	no file '/usr/local/openresty/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/web.lua'
+	no file '/usr/local/openresty/site/lualib/web/init.lua'
+	no file '/usr/local/openresty/lualib/web.lua'
+	no file '/usr/local/openresty/lualib/web/init.lua'
+	no file './web.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/web.lua'
+	no file '/usr/local/share/lua/5.1/web.lua'
+	no file '/usr/local/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/site/lualib/web.so'
+	no file '/usr/local/openresty/lualib/web.so'
+	no file './web.so'
+	no file '/usr/local/lib/lua/5.1/web.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/web.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:18:53 [error] 2068#2068: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):2: module 'web' not found:
+	no field package.preload['web']
+	no file '/home/chen/Desktop/webservice/lua//lua/web.lua'
+	no file '/usr/local/openresty/site/lualib/web.ljbc'
+	no file '/usr/local/openresty/site/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/lualib/web.ljbc'
+	no file '/usr/local/openresty/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/web.lua'
+	no file '/usr/local/openresty/site/lualib/web/init.lua'
+	no file '/usr/local/openresty/lualib/web.lua'
+	no file '/usr/local/openresty/lualib/web/init.lua'
+	no file './web.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/web.lua'
+	no file '/usr/local/share/lua/5.1/web.lua'
+	no file '/usr/local/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/site/lualib/web.so'
+	no file '/usr/local/openresty/lualib/web.so'
+	no file './web.so'
+	no file '/usr/local/lib/lua/5.1/web.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/web.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:19:20 [error] 2068#2068: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):2: module 'web' not found:
+	no field package.preload['web']
+	no file '/home/chen/Desktop/webservice/lua//lua/web.lua'
+	no file '/usr/local/openresty/site/lualib/web.ljbc'
+	no file '/usr/local/openresty/site/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/lualib/web.ljbc'
+	no file '/usr/local/openresty/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/web.lua'
+	no file '/usr/local/openresty/site/lualib/web/init.lua'
+	no file '/usr/local/openresty/lualib/web.lua'
+	no file '/usr/local/openresty/lualib/web/init.lua'
+	no file './web.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/web.lua'
+	no file '/usr/local/share/lua/5.1/web.lua'
+	no file '/usr/local/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/site/lualib/web.so'
+	no file '/usr/local/openresty/lualib/web.so'
+	no file './web.so'
+	no file '/usr/local/lib/lua/5.1/web.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/web.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:19:46 [error] 2134#2134: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'webservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:20:24 [error] 2068#2068: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):2: module 'web' not found:
+	no field package.preload['web']
+	no file '/home/chen/Desktop/webservice/lua//lua/web.lua'
+	no file '/usr/local/openresty/site/lualib/web.ljbc'
+	no file '/usr/local/openresty/site/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/lualib/web.ljbc'
+	no file '/usr/local/openresty/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/web.lua'
+	no file '/usr/local/openresty/site/lualib/web/init.lua'
+	no file '/usr/local/openresty/lualib/web.lua'
+	no file '/usr/local/openresty/lualib/web/init.lua'
+	no file './web.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/web.lua'
+	no file '/usr/local/share/lua/5.1/web.lua'
+	no file '/usr/local/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/site/lualib/web.so'
+	no file '/usr/local/openresty/lualib/web.so'
+	no file './web.so'
+	no file '/usr/local/lib/lua/5.1/web.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/web.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:20:52 [error] 2109#2109: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):2: module 'web' not found:
+	no field package.preload['web']
+	no file '/home/chen/Desktop/webservice/lua//lua/web.lua'
+	no file '/usr/local/openresty/site/lualib/web.ljbc'
+	no file '/usr/local/openresty/site/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/lualib/web.ljbc'
+	no file '/usr/local/openresty/lualib/web/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/web.lua'
+	no file '/usr/local/openresty/site/lualib/web/init.lua'
+	no file '/usr/local/openresty/lualib/web.lua'
+	no file '/usr/local/openresty/lualib/web/init.lua'
+	no file './web.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/web.lua'
+	no file '/usr/local/share/lua/5.1/web.lua'
+	no file '/usr/local/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/web/init.lua'
+	no file '/usr/local/openresty/site/lualib/web.so'
+	no file '/usr/local/openresty/lualib/web.so'
+	no file './web.so'
+	no file '/usr/local/lib/lua/5.1/web.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/web.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:32:53 [error] 1927#1927: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:19: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:35:41 [error] 1943#1943: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:19: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:12 [error] 1961#1961: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:14 [error] 1947#1947: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:18 [error] 1927#1927: *2 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:19 [error] 1965#1965: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:22 [error] 1927#1927: *3 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:24 [error] 1961#1961: *2 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:25 [error] 1965#1965: *2 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:27 [error] 1943#1943: *2 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:28 [error] 1965#1965: *3 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:29 [error] 1997#1997: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:30 [error] 1985#1985: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:37:31 [error] 1969#1969: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:38:38 [error] 1985#1985: *2 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:38:41 [error] 1947#1947: *2 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:38:42 [error] 1927#1927: *4 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:6: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:45:16 [error] 2427#2427: *1 lua entry thread aborted: runtime error: /home/chen/Desktop/webservice/lua//lua/web.lua:9: attempt to index global 'asacon' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/chen/Desktop/webservice/lua//lua/web.lua: in function 'webservice'
+	content_by_lua(nginx.conf:18):3: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:46:00 [error] 2524#2524: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'webservisce' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:46:02 [error] 2506#2506: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'webservisce' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:59:00 [error] 2683#2683: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:37: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:59:12 [error] 2488#2488: *1 lua entry thread aborted: runtime error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:37: 'end' expected (to close 'function' at line 3) near '<eof>'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:18):2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 19:59:31 [error] 1908#1908: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'greet' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:00:04 [error] 2516#2516: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'webservisce' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:00:39 [error] 2496#2496: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'webservisce' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:00:51 [error] 1908#1908: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'greet' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:03:28 [error] 2202#2202: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:03:29 [error] 2194#2194: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:03:30 [error] 2202#2202: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:03:37 [error] 2194#2194: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:03:41 [error] 2202#2202: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:03:59 [error] 2198#2198: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:04:00 [error] 2198#2198: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:04:42 [error] 2194#2194: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:06:12 [error] 2202#2202: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:20:07 [error] 2567#2567: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:16: 'then' expected near '='
+stack traceback:
+	[C]: at 0x7fa47f297ca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2021/04/01 20:20:23 [error] 2569#2569: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:17: 'then' expected near 'ngx'
+stack traceback:
+	[C]: at 0x7f9408405ca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2021/04/01 20:21:09 [error] 2634#2634: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:16: 'then' expected near '='
+stack traceback:
+	[C]: at 0x7f3fc2903ca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2021/04/01 20:21:53 [error] 2202#2202: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:23:31 [error] 2703#2703: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:16: 'then' expected near '!'
+stack traceback:
+	[C]: at 0x7f9e64998ca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2021/04/01 20:25:41 [error] 2774#2774: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:16: 'then' expected near '='
+stack traceback:
+	[C]: at 0x7f2765752ca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2021/04/01 20:26:46 [error] 2202#2202: *6 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:26:50 [error] 2202#2202: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:18):3: attempt to call field 'wenservice' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:18): in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/01 20:28:01 [alert] 2320#2320: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2197#2197: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2201#2201: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2517#2517: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2205#2205: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2278#2278: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2654#2654: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2209#2209: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2659#2659: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2213#2213: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2663#2663: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2282#2282: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2512#2512: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2274#2274: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2456#2456: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2287#2287: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2722#2722: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2258#2258: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2735#2735: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2268#2268: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2778#2778: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2325#2325: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2727#2727: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2294#2294: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 1907#1907: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2330#2330: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2480#2480: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2608#2608: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2485#2485: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2217#2217: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2673#2673: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2245#2245: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2744#2744: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2522#2522: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2461#2461: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2527#2527: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2693#2693: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2490#2490: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2532#2532: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2688#2688: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2185#2185: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2181#2181: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2830#2830: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2348#2348: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2844#2844: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2343#2343: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2839#2839: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2447#2447: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2308#2308: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2500#2500: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2303#2303: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2790#2790: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2507#2507: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2352#2352: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2312#2312: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2495#2495: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2299#2299: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2795#2795: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2232#2232: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2740#2740: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2471#2471: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2253#2253: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2643#2643: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2603#2603: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2593#2593: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2588#2588: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2578#2578: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2228#2228: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2785#2785: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2466#2466: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2475#2475: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2583#2583: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2800#2800: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2820#2820: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2816#2816: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2717#2717: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2712#2712: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2668#2668: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2834#2834: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2825#2825: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2806#2806: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2811#2811: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:01 [alert] 2707#2707: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2222#2222: worker process 2223 exited on signal 9
+2021/04/01 20:28:04 [alert] 2222#2222: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2678#2678: worker process 2679 exited on signal 9
+2021/04/01 20:28:04 [alert] 2678#2678: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2249#2249: worker process 2250 exited on signal 9
+2021/04/01 20:28:04 [alert] 2249#2249: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2573#2573: worker process 2574 exited on signal 9
+2021/04/01 20:28:04 [alert] 2573#2573: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2618#2618: worker process 2619 exited on signal 9
+2021/04/01 20:28:04 [alert] 2618#2618: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2698#2698: worker process 2699 exited on signal 9
+2021/04/01 20:28:04 [alert] 2698#2698: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2626#2626: worker process 2627 exited on signal 9
+2021/04/01 20:28:04 [alert] 2626#2626: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2598#2598: worker process 2599 exited on signal 9
+2021/04/01 20:28:04 [alert] 2598#2598: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2613#2613: worker process 2614 exited on signal 9
+2021/04/01 20:28:04 [alert] 2613#2613: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 20:28:04 [alert] 2638#2638: worker process 2639 exited on signal 9
+2021/04/01 20:28:04 [alert] 2638#2638: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/01 21:01:21 [emerg] 2921#2921: unknown directive "wo+rker_connections" in /home/chen/Desktop/webservice/lua/conf/nginx.conf:4
+2021/04/01 21:01:29 [emerg] 2923#2923: unknown directive "wo+rker_connections" in /home/chen/Desktop/webservice/lua/conf/nginx.conf:4
+2021/04/01 21:01:31 [emerg] 2924#2924: unknown directive "wo+rker_connections" in /home/chen/Desktop/webservice/lua/conf/nginx.conf:4
+2021/04/01 21:01:38 [emerg] 2925#2925: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2021/04/01 21:01:59 [alert] 2927#2927: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:28:06 [error] 4108#4108: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:15: 'then' expected near '='
+stack traceback:
+	[C]: at 0x7f98c977fca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2021/04/02 10:28:28 [error] 4111#4111: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:15: 'then' expected near '='
+stack traceback:
+	[C]: at 0x7f2522cbeca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2021/04/02 10:44:38 [alert] 4387#4387: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4114#4114: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4396#4396: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4392#4392: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4539#4539: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4379#4379: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4421#4421: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4825#4825: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4375#4375: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4534#4534: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4698#4698: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4628#4628: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4553#4553: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4633#4633: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4776#4776: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4694#4694: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4754#4754: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4759#4759: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4747#4747: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4681#4681: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4785#4785: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4763#4763: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4767#4767: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4789#4789: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4771#4771: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4798#4798: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4781#4781: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4793#4793: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4802#4802: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4811#4811: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4817#4817: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 3696#3696: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4821#4821: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4702#4702: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4829#4829: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4833#4833: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4806#4806: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4716#4716: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4706#4706: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4690#4690: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4728#4728: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:38 [alert] 4559#4559: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4408#4408: worker process 4409 exited on signal 9
+2021/04/02 10:44:41 [alert] 4445#4445: worker process 4446 exited on signal 9
+2021/04/02 10:44:41 [alert] 4445#4445: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4416#4416: worker process 4417 exited on signal 9
+2021/04/02 10:44:41 [alert] 4416#4416: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4432#4432: worker process 4433 exited on signal 9
+2021/04/02 10:44:41 [alert] 4432#4432: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4723#4723: worker process 4724 exited on signal 9
+2021/04/02 10:44:41 [alert] 4723#4723: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4435#4435: worker process 4436 exited on signal 9
+2021/04/02 10:44:41 [alert] 4435#4435: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4412#4412: worker process 4413 exited on signal 9
+2021/04/02 10:44:41 [alert] 4412#4412: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4404#4404: worker process 4405 exited on signal 9
+2021/04/02 10:44:41 [alert] 4404#4404: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4525#4525: worker process 4526 exited on signal 9
+2021/04/02 10:44:41 [alert] 4525#4525: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4462#4462: worker process 4463 exited on signal 9
+2021/04/02 10:44:41 [alert] 4462#4462: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4439#4439: worker process 4440 exited on signal 9
+2021/04/02 10:44:41 [alert] 4439#4439: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4710#4710: worker process 4711 exited on signal 9
+2021/04/02 10:44:41 [alert] 4710#4710: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4457#4457: worker process 4458 exited on signal 9
+2021/04/02 10:44:41 [alert] 4457#4457: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:44:41 [alert] 4450#4450: worker process 4451 exited on signal 9
+2021/04/02 10:44:41 [alert] 4450#4450: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:46:01 [error] 4878#4878: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "localhost:8080"
+2021/04/02 10:46:28 [error] 4884#4884: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "localhost:8080"
+2021/04/02 10:47:40 [error] 4889#4889: *1 "/home/chen/Desktop/webservice/lua/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /?userid=1 HTTP/1.1", host: "localhost:8080"
+2021/04/02 10:47:55 [error] 4899#4899: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:02 [error] 4899#4899: *2 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:03 [error] 4899#4899: *3 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:04 [error] 4899#4899: *4 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:05 [error] 4921#4921: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:06 [error] 4925#4925: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:07 [error] 4925#4925: *2 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:08 [error] 4917#4917: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:10 [error] 4913#4913: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:48:11 [error] 4870#4870: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 10:57:37 [alert] 4869#4869: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4898#4898: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4883#4883: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4912#4912: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4916#4916: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4920#4920: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4924#4924: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4928#4928: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4936#4936: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4940#4940: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4944#4944: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4948#4948: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4967#4967: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4952#4952: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4963#4963: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4971#4971: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4957#4957: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4975#4975: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4999#4999: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4983#4983: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4987#4987: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5003#5003: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4991#4991: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5007#5007: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 4995#4995: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5016#5016: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5024#5024: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5020#5020: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5030#5030: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5038#5038: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5042#5042: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:37 [alert] 5034#5034: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:40 [alert] 4858#4858: worker process 4859 exited on signal 9
+2021/04/02 10:57:40 [alert] 4858#4858: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:40 [alert] 4877#4877: worker process 4878 exited on signal 9
+2021/04/02 10:57:40 [alert] 4877#4877: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 10:57:40 [alert] 4932#4932: worker process 4933 exited on signal 9
+2021/04/02 10:57:40 [alert] 4932#4932: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:00:27 [error] 5059#5059: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:01:33 [error] 5071#5071: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:01:46 [error] 5071#5071: *2 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:01:46 [error] 5071#5071: *2 open() "/home/chen/Desktop/webservice/lua/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/test"
+2021/04/02 11:01:48 [error] 5071#5071: *2 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:01:49 [error] 5071#5071: *2 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:01:49 [error] 5071#5071: *2 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:01:51 [error] 5071#5071: *3 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:01:53 [error] 5071#5071: *4 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:01:54 [error] 5067#5067: *1 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2021/04/02 11:02:21 [error] 5067#5067: *2 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 11:02:26 [error] 5071#5071: *5 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 11:02:47 [error] 5067#5067: *3 open() "/home/chen/Desktop/webservice/lua/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test?name= HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 11:05:42 [alert] 5058#5058: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5062#5062: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5070#5070: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5066#5066: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5446#5446: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5450#5450: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5476#5476: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5454#5454: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5480#5480: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5458#5458: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5466#5466: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5484#5484: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5488#5488: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5470#5470: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5492#5492: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5496#5496: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5500#5500: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5504#5504: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:42 [alert] 5462#5462: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:05:45 [alert] 5049#5049: worker process 5050 exited on signal 9
+2021/04/02 11:05:45 [alert] 5049#5049: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:43 [alert] 5628#5628: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:43 [alert] 5514#5514: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:43 [alert] 5635#5635: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:43 [alert] 5530#5530: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:43 [alert] 5643#5643: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:43 [alert] 5534#5534: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:43 [alert] 5647#5647: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:43 [alert] 5651#5651: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:46 [alert] 5544#5544: worker process 5545 exited on signal 9
+2021/04/02 11:12:46 [alert] 5548#5548: worker process 5549 exited on signal 9
+2021/04/02 11:12:46 [alert] 5548#5548: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:46 [alert] 5540#5540: worker process 5541 exited on signal 9
+2021/04/02 11:12:46 [alert] 5540#5540: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:46 [alert] 5603#5603: worker process 5604 exited on signal 9
+2021/04/02 11:12:46 [alert] 5603#5603: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:46 [alert] 5615#5615: worker process 5616 exited on signal 9
+2021/04/02 11:12:46 [alert] 5615#5615: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:46 [alert] 5525#5525: worker process 5526 exited on signal 9
+2021/04/02 11:12:46 [alert] 5525#5525: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:46 [alert] 5619#5619: worker process 5620 exited on signal 9
+2021/04/02 11:12:46 [alert] 5619#5619: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:12:46 [alert] 5607#5607: worker process 5608 exited on signal 9
+2021/04/02 11:12:46 [alert] 5607#5607: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:18:24 [alert] 5659#5659: worker process 5660 exited on signal 9
+2021/04/02 11:18:24 [alert] 5659#5659: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:18:42 [error] 5705#5705: *1 "/home/chen/Desktop/webservice/lua/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 11:19:24 [error] 5705#5705: *2 "/home/chen/Desktop/webservice/lua/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 11:19:25 [error] 5705#5705: *3 "/home/chen/Desktop/webservice/lua/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/02 11:19:46 [alert] 5709#5709: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5734#5734: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5746#5746: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5725#5725: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5758#5758: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5730#5730: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5721#5721: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5713#5713: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5754#5754: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5763#5763: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5750#5750: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:46 [alert] 5717#5717: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:19:50 [alert] 5738#5738: worker process 5739 exited on signal 9
+2021/04/02 11:19:50 [alert] 5742#5742: worker process 5743 exited on signal 9
+2021/04/02 11:19:50 [alert] 5742#5742: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5808#5808: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5785#5785: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5834#5834: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5843#5843: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5848#5848: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5853#5853: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5869#5869: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5873#5873: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5885#5885: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5878#5878: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5881#5881: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5861#5861: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:43 [alert] 5865#5865: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5795#5795: worker process 5796 exited on signal 9
+2021/04/02 11:26:46 [alert] 5804#5804: worker process 5805 exited on signal 9
+2021/04/02 11:26:46 [alert] 5804#5804: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5795#5795: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5771#5771: worker process 5772 exited on signal 9
+2021/04/02 11:26:46 [alert] 5771#5771: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5838#5838: worker process 5839 exited on signal 9
+2021/04/02 11:26:46 [alert] 5838#5838: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5775#5775: worker process 5776 exited on signal 9
+2021/04/02 11:26:46 [alert] 5775#5775: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5791#5791: worker process 5792 exited on signal 9
+2021/04/02 11:26:46 [alert] 5791#5791: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5822#5822: worker process 5823 exited on signal 9
+2021/04/02 11:26:46 [alert] 5822#5822: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5800#5800: worker process 5801 exited on signal 9
+2021/04/02 11:26:46 [alert] 5800#5800: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5818#5818: worker process 5819 exited on signal 9
+2021/04/02 11:26:46 [alert] 5818#5818: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:26:46 [alert] 5812#5812: worker process 5813 exited on signal 9
+2021/04/02 11:26:46 [alert] 5812#5812: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:28:28 [alert] 5927#5927: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:28:28 [alert] 5937#5937: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:28:28 [alert] 5933#5933: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:28:31 [alert] 5918#5918: worker process 5919 exited on signal 9
+2021/04/02 11:28:31 [alert] 5923#5923: worker process 5924 exited on signal 9
+2021/04/02 11:28:31 [alert] 5923#5923: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:06 [alert] 5958#5958: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:06 [alert] 5969#5969: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:06 [alert] 6039#6039: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:06 [alert] 6043#6043: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:06 [alert] 5963#5963: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:06 [alert] 5954#5954: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:06 [alert] 5973#5973: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:08 [alert] 5948#5948: worker process 5949 exited on signal 9
+2021/04/02 11:30:08 [alert] 5944#5944: worker process 5945 exited on signal 9
+2021/04/02 11:30:08 [alert] 5944#5944: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:30:08 [alert] 6065#6065: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:32:49 [alert] 6081#6081: worker process 6082 exited on signal 9
+2021/04/02 11:32:51 [alert] 6093#6093: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:33:33 [alert] 6106#6106: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:33:33 [alert] 6109#6109: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:34:41 [alert] 6118#6118: worker process 6119 exited on signal 9
+2021/04/02 11:34:52 [alert] 6126#6126: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/02 11:35:04 [error] 6144#6144: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:16: 'then' expected near ')'
+stack traceback:
+	[C]: at 0x7f5593419ca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
