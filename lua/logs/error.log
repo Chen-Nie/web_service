@@ -767,3 +767,195 @@ stack traceback:
 2021/04/06 14:29:47 [alert] 2882#2882: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
 2021/04/06 14:29:47 [alert] 2859#2859: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
 2021/04/06 14:29:47 [alert] 2886#2886: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 16:22:35 [error] 8188#8188: *1 lua entry thread aborted: runtime error: /home/chen/Desktop/webservice/lua//lua/web.lua:7: module 'redisas' not found:
+	no field package.preload['redisas']
+	no file '/home/chen/Desktop/webservice/lua//lua/redisas.lua'
+	no file '/usr/local/openresty/site/lualib/redisas.ljbc'
+	no file '/usr/local/openresty/site/lualib/redisas/init.ljbc'
+	no file '/usr/local/openresty/lualib/redisas.ljbc'
+	no file '/usr/local/openresty/lualib/redisas/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/redisas.lua'
+	no file '/usr/local/openresty/site/lualib/redisas/init.lua'
+	no file '/usr/local/openresty/lualib/redisas.lua'
+	no file '/usr/local/openresty/lualib/redisas/init.lua'
+	no file './redisas.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/redisas.lua'
+	no file '/usr/local/share/lua/5.1/redisas.lua'
+	no file '/usr/local/share/lua/5.1/redisas/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redisas.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redisas/init.lua'
+	no file '/usr/local/openresty/site/lualib/redisas.so'
+	no file '/usr/local/openresty/lualib/redisas.so'
+	no file './redisas.so'
+	no file '/usr/local/lib/lua/5.1/redisas.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/redisas.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:7: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:22:41 [error] 8188#8188: *2 lua entry thread aborted: runtime error: /home/chen/Desktop/webservice/lua//lua/web.lua:7: module 'redisas' not found:
+	no field package.preload['redisas']
+	no file '/home/chen/Desktop/webservice/lua//lua/redisas.lua'
+	no file '/usr/local/openresty/site/lualib/redisas.ljbc'
+	no file '/usr/local/openresty/site/lualib/redisas/init.ljbc'
+	no file '/usr/local/openresty/lualib/redisas.ljbc'
+	no file '/usr/local/openresty/lualib/redisas/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/redisas.lua'
+	no file '/usr/local/openresty/site/lualib/redisas/init.lua'
+	no file '/usr/local/openresty/lualib/redisas.lua'
+	no file '/usr/local/openresty/lualib/redisas/init.lua'
+	no file './redisas.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/redisas.lua'
+	no file '/usr/local/share/lua/5.1/redisas.lua'
+	no file '/usr/local/share/lua/5.1/redisas/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redisas.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redisas/init.lua'
+	no file '/usr/local/openresty/site/lualib/redisas.so'
+	no file '/usr/local/openresty/lualib/redisas.so'
+	no file './redisas.so'
+	no file '/usr/local/lib/lua/5.1/redisas.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/redisas.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:7: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:22:43 [error] 8183#8183: *1 lua entry thread aborted: runtime error: /home/chen/Desktop/webservice/lua//lua/web.lua:7: module 'redis' not found:
+	no field package.preload['redis']
+	no file '/home/chen/Desktop/webservice/lua//lua/redis.lua'
+	no file '/usr/local/openresty/site/lualib/redis.ljbc'
+	no file '/usr/local/openresty/site/lualib/redis/init.ljbc'
+	no file '/usr/local/openresty/lualib/redis.ljbc'
+	no file '/usr/local/openresty/lualib/redis/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/redis.lua'
+	no file '/usr/local/openresty/site/lualib/redis/init.lua'
+	no file '/usr/local/openresty/lualib/redis.lua'
+	no file '/usr/local/openresty/lualib/redis/init.lua'
+	no file './redis.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/redis.lua'
+	no file '/usr/local/share/lua/5.1/redis.lua'
+	no file '/usr/local/share/lua/5.1/redis/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redis.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redis/init.lua'
+	no file '/usr/local/openresty/site/lualib/redis.so'
+	no file '/usr/local/openresty/lualib/redis.so'
+	no file './redis.so'
+	no file '/usr/local/lib/lua/5.1/redis.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/redis.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:7: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:22:53 [error] 8193#8193: *1 lua entry thread aborted: runtime error: /home/chen/Desktop/webservice/lua//lua/web.lua:7: module 'redis' not found:
+	no field package.preload['redis']
+	no file '/home/chen/Desktop/webservice/lua//lua/redis.lua'
+	no file '/usr/local/openresty/site/lualib/redis.ljbc'
+	no file '/usr/local/openresty/site/lualib/redis/init.ljbc'
+	no file '/usr/local/openresty/lualib/redis.ljbc'
+	no file '/usr/local/openresty/lualib/redis/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/redis.lua'
+	no file '/usr/local/openresty/site/lualib/redis/init.lua'
+	no file '/usr/local/openresty/lualib/redis.lua'
+	no file '/usr/local/openresty/lualib/redis/init.lua'
+	no file './redis.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/redis.lua'
+	no file '/usr/local/share/lua/5.1/redis.lua'
+	no file '/usr/local/share/lua/5.1/redis/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redis.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redis/init.lua'
+	no file '/usr/local/openresty/site/lualib/redis.so'
+	no file '/usr/local/openresty/lualib/redis.so'
+	no file './redis.so'
+	no file '/usr/local/lib/lua/5.1/redis.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/redis.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:7: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:23:27 [alert] 8202#8202: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 16:23:27 [alert] 8206#8206: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 16:23:27 [alert] 8196#8196: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 16:23:27 [alert] 8192#8192: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 16:23:27 [alert] 8210#8210: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 16:23:27 [alert] 8187#8187: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 16:23:42 [error] 8229#8229: *1 lua entry thread aborted: runtime error: /home/chen/Desktop/webservice/lua//lua/web.lua:7: module 'redis' not found:
+	no field package.preload['redis']
+	no file '/home/chen/Desktop/webservice/lua//lua/redis.lua'
+	no file '/usr/local/openresty/site/lualib/redis.ljbc'
+	no file '/usr/local/openresty/site/lualib/redis/init.ljbc'
+	no file '/usr/local/openresty/lualib/redis.ljbc'
+	no file '/usr/local/openresty/lualib/redis/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/redis.lua'
+	no file '/usr/local/openresty/site/lualib/redis/init.lua'
+	no file '/usr/local/openresty/lualib/redis.lua'
+	no file '/usr/local/openresty/lualib/redis/init.lua'
+	no file './redis.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/redis.lua'
+	no file '/usr/local/share/lua/5.1/redis.lua'
+	no file '/usr/local/share/lua/5.1/redis/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redis.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/redis/init.lua'
+	no file '/usr/local/openresty/site/lualib/redis.so'
+	no file '/usr/local/openresty/lualib/redis.so'
+	no file './redis.so'
+	no file '/usr/local/lib/lua/5.1/redis.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/redis.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:7: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=1 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:40:06 [alert] 9501#9501: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 16:40:09 [error] 9580#9580: *1 lua entry thread aborted: runtime error: /home/chen/Desktop/webservice/lua//lua/web.lua:17: attempt to index global 'client' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/chen/Desktop/webservice/lua//lua/web.lua: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=3 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:42:23 [error] 9600#9600: *1 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/redis.lua:371: attempt to index field 'network' (a nil value)
+stack traceback:
+coroutine 0:
+	/usr/local/share/lua/5.1/redis.lua: in function 'send'
+	/usr/local/share/lua/5.1/redis.lua:379: in function 'exists'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:18: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=3 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:45:06 [error] 9632#9632: *1 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/redis.lua:371: attempt to index field 'network' (a nil value)
+stack traceback:
+coroutine 0:
+	/usr/local/share/lua/5.1/redis.lua: in function 'send'
+	/usr/local/share/lua/5.1/redis.lua:379: in function 'exists'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:18: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=3 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:46:15 [error] 9646#9646: *1 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/redis.lua:371: attempt to index local 'client' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/share/lua/5.1/redis.lua: in function 'send'
+	/usr/local/share/lua/5.1/redis.lua:379: in function 'exists'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:18: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=3 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:48:21 [error] 9680#9680: *1 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/redis.lua:371: attempt to index field 'network' (a nil value)
+stack traceback:
+coroutine 0:
+	/usr/local/share/lua/5.1/redis.lua: in function 'send'
+	/usr/local/share/lua/5.1/redis.lua:379: in function 'set'
+	/home/chen/Desktop/webservice/lua//lua/web.lua:24: in function 'webservice'
+	content_by_lua(nginx.conf:26):7: in main chunk, client: 127.0.0.1, server: , request: "GET /?userid=3 HTTP/1.1", host: "127.0.0.1:8080"
+2021/04/06 16:49:15 [error] 9706#9706: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:17: function arguments expected near 'while'
+stack traceback:
+	[C]: at 0x7fd533800ca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2021/04/06 16:49:34 [error] 9711#9711: init_by_lua error: error loading module 'web' from file '/home/chen/Desktop/webservice/lua//lua/web.lua':
+	/home/chen/Desktop/webservice/lua//lua/web.lua:17: function arguments expected near 'while'
+stack traceback:
+	[C]: at 0x7f6c676fbca0
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk

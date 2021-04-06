@@ -18,12 +18,15 @@ echo "<h2>Web Service</h2><ol>";
 
 foreach($db->query("SELECT * FROM $table") as $row) {
   if($_POST["id"] == $row['user_id']) {
-    echo "<li>" . "Username: " . $row['username'] . ", Gender: " . $row['gender>
+    echo "<li>" . "Username: " . $row['username'] . ", Gender: " . $row['gender'] . ", Email: " . $row['email'] .  "</li>";
   }
 }
 echo "</ol>";
 ?>
 <p><a href="/user.html">back</a></p>
+
+
+
 
 
 nano /var/www/web/user.html
