@@ -16,7 +16,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
     var username string
     var gender string
     var email string
-    userids, ok := r.URL.Query()["userid"]
+    userids, ok := r.URL.Query()["gouserid"]
     if !ok || len(userids[0]) < 1 {
         fmt.Println("No input")
         return

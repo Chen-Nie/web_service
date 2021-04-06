@@ -764,3 +764,6 @@ stack traceback:
 	[C]: at 0x7f5593419ca0
 	[C]: in function 'require'
 	init_by_lua:2: in main chunk
+2021/04/06 14:29:47 [alert] 2882#2882: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 14:29:47 [alert] 2859#2859: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)
+2021/04/06 14:29:47 [alert] 2886#2886: unlink() "/home/chen/Desktop/webservice/lua/logs/nginx.pid" failed (2: No such file or directory)

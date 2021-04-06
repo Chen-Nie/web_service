@@ -424,3 +424,7 @@
 127.0.0.1 - - [06/Apr/2021:11:41:39 +0800] "GET /?user=1 HTTP/1.1" 200 27 "-" "curl/7.68.0"
 127.0.0.1 - - [06/Apr/2021:11:42:10 +0800] "GET /?userid=1 HTTP/1.1" 200 55 "-" "curl/7.68.0"
 127.0.0.1 - - [06/Apr/2021:11:42:27 +0800] "GET /?userid=3 HTTP/1.1" 200 57 "-" "curl/7.68.0"
+127.0.0.1 - - [06/Apr/2021:14:28:14 +0800] "GET /?userid=3 HTTP/1.1" 200 57 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+127.0.0.1 - - [06/Apr/2021:14:28:17 +0800] "GET /?userid=2 HTTP/1.1" 200 57 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+127.0.0.1 - - [06/Apr/2021:14:28:20 +0800] "GET /?userid=1 HTTP/1.1" 200 55 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
+127.0.0.1 - - [06/Apr/2021:14:29:09 +0800] "GET /?userid=3 HTTP/1.1" 200 57 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:87.0) Gecko/20100101 Firefox/87.0"
